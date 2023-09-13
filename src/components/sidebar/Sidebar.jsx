@@ -6,7 +6,7 @@ import {
   dashBoardLinks3,
   dashBoardLinks4,
 } from "../../contants";
-import SideMenu from "./sideMenu";
+import SideMenu from "./SideMenu";
 
 function Sidebar() {
   return (
