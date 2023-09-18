@@ -1,6 +1,7 @@
 .container {
   /* padding: 0.8rem 1.3rem; */
   display: flex;
+  margin-top: 10px;
   /* align-items: center; */
 }
 
