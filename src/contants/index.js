@@ -99,3 +99,78 @@ export const dashBoardLinks4 = {
     },
   ],
 };
+
+export const data = [
+  {
+    name: "January",
+    ActiveUsers: 4000,
+    sales: 2400,
+    amt: 2400,
+  },
+  {
+    name: "Febuary",
+    ActiveUsers: 3000,
+    sales: 1398,
+    amt: 2210,
+  },
+  {
+    name: "March",
+    ActiveUsers: 2000,
+    sales: 9800,
+    amt: 2290,
+  },
+  {
+    name: "April",
+    ActiveUsers: 2780,
+    sales: 3908,
+    amt: 2000,
+  },
+  {
+    name: "May",
+    ActiveUsers: 1890,
+    sales: 4800,
+    amt: 2181,
+  },
+  {
+    name: "June",
+    ActiveUsers: 2390,
+    sales: 3800,
+    amt: 2500,
+  },
+  {
+    name: "July",
+    ActiveUsers: 3490,
+    sales: 4300,
+    amt: 2100,
+  },
+  {
+    name: "August",
+    ActiveUsers: 3490,
+    sales: 4300,
+    amt: 2100,
+  },
+  {
+    name: "September",
+    ActiveUsers: 3490,
+    sales: 4300,
+    amt: 2100,
+  },
+  {
+    name: "October",
+    ActiveUsers: 3490,
+    sales: 4300,
+    amt: 2100,
+  },
+  {
+    name: "November",
+    ActiveUsers: 3490,
+    sales: 4300,
+    amt: 2100,
+  },
+  {
+    name: "December",
+    ActiveUsers: 3490,
+    sales: 4300,
+    amt: 2100,
+  },
+];
