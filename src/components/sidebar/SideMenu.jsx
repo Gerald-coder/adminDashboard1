@@ -1,7 +1,8 @@
-import React from "react";
+import { Link } from "react-router-dom";
+
+/* eslint-disable */
 
 function SideMenu({ dashBoardLinks }) {
-  console.log(dashBoardLinks);
   return (
     <>
       <h2 className="sidebarTitle">{dashBoardLinks.dashboard}</h2>
@@ -12,7 +13,16 @@ function SideMenu({ dashBoardLinks }) {
               className={`sidebarListItem ${dash.id === 1 ? "active" : "none"}`}
               key={dash.id}
             >
-              {<dash.icons className="sidebarIcon" />} {dash.name}
+              {dash.name === "Users" ? (
+                <>
+                  <dash.icons className="sidebarIcon" />
+                  <Link  to="/users">{dash.name}</Link>
+                </>
+              ) : (
+                <>
+                  <dash.icons className="sidebarIcon" /> {dash.name}
+                </>
+              )}
             </li>
           );
         })}

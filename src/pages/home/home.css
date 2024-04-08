@@ -1,3 +1,12 @@
 .home {
   flex: 4;
 }
+.homeWidget {
+  /* border: 1px dashed green; */
+  display: flex;
+  margin: 1.6rem;
+}
+
+.homeWidget .widgetSm {
+  align-self: flex-start;
+}

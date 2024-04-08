@@ -1,4 +1,3 @@
-import React from "react";
 import "./sidebar.css";
 import {
   dashBoardLinks,
@@ -7,6 +6,8 @@ import {
   dashBoardLinks4,
 } from "../../contants";
 import SideMenu from "./SideMenu";
+
+/* eslint-disable */
 
 function Sidebar() {
   return (
@@ -17,6 +18,7 @@ function Sidebar() {
           <SideMenu dashBoardLinks={dashBoardLinks2} />
           <SideMenu dashBoardLinks={dashBoardLinks3} />
           <SideMenu dashBoardLinks={dashBoardLinks4} />
+          {/* <h2>hello</h2> */}
         </div>
       </div>
     </div>

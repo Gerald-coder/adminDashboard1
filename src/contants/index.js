@@ -174,3 +174,92 @@ export const data = [
     amt: 2100,
   },
 ];
+
+export const widgetSmallItems = {
+  topTitle: "Newly Joined Usersz",
+  properties: [
+    {
+      title: "Software Engineer",
+      photo:
+        "https://images.pexels.com/photos/18238186/pexels-photo-18238186/free-photo-of-young-woman-sitting-in-an-armchair-in-a-modern-room.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+      username: "Gerald",
+      alt: "SF",
+      id: 1,
+    },
+    {
+      title: "Cyber Engineer",
+      photo:
+        "https://images.pexels.com/photos/18185493/pexels-photo-18185493/free-photo-of-fashion-man-people-relaxation.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+      username: "Chibuike",
+      alt: "SF",
+      id: 2,
+    },
+    {
+      title: "React Engineer",
+      photo:
+        "https://images.pexels.com/photos/17927911/pexels-photo-17927911/free-photo-of-man-sitting-on-chair-and-posing.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+      username: "Anthony",
+      alt: "SF",
+      id: 3,
+    },
+    {
+      title: "FullStack Engineer",
+      photo:
+        "https://images.pexels.com/photos/17993678/pexels-photo-17993678/free-photo-of-elderly-man-and-woman-hugging.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+      username: "Divine",
+      alt: "SF",
+      id: 4,
+    },
+    {
+      title: "Python Developer",
+      photo:
+        "https://images.pexels.com/photos/17993678/pexels-photo-17993678/free-photo-of-elderly-man-and-woman-hugging.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+      username: "Amara",
+      alt: "",
+      id: 5,
+    },
+  ],
+};
+
+export const widgetLgTable = [
+  {
+    image:
+      "https://images.pexels.com/photos/17993678/pexels-photo-17993678/free-photo-of-elderly-man-and-woman-hugging.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+    date: "22 June 2001",
+    name: "Gerald",
+    Amount: 245.49,
+    status: "Aproved",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/17993678/pexels-photo-17993678/free-photo-of-elderly-man-and-woman-hugging.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+    date: "28 June 2001",
+    name: "Chibuike",
+    Amount: 245.49,
+    status: "Aproved",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/17993678/pexels-photo-17993678/free-photo-of-elderly-man-and-woman-hugging.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+    date: "22 June 2001",
+    name: "Anthony",
+    Amount: 245.49,
+    status: "Pending",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/17993678/pexels-photo-17993678/free-photo-of-elderly-man-and-woman-hugging.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+    date: "22 June 2001",
+    name: "Divine",
+    Amount: 245.49,
+    status: "Declined",
+  },
+  {
+    image:
+      "https://images.pexels.com/photos/17993678/pexels-photo-17993678/free-photo-of-elderly-man-and-woman-hugging.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load",
+    date: "22 June 2001",
+    name: "Okechukwu",
+    Amount: 245.49,
+    status: "Aproved",
+  },
+];

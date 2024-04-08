@@ -1,0 +1,59 @@
+.widgetLg {
+  flex: 2;
+  box-shadow: -3px 0px 14px 0px rgba(207, 205, 205, 0.75);
+  padding: 1.6rem;
+  border-radius: 5px;
+}
+
+.wigetLgTitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.8rem;
+}
+
+.red {
+  background-color: rgb(218, 146, 128);
+}
+
+.yellow {
+  background-color: rgb(228, 202, 135);
+}
+
+.normal {
+  background-color: rgb(183, 224, 183);
+  color: #3bb007;
+}
+
+.widgetLgButton {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 1.6rem;
+}
+
+.widgetLgTh {
+  text-align: left;
+}
+
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+
+.widgetLgAmount,
+.widgetLgDate {
+  font-weight: 200;
+}
